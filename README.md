@@ -1,6 +1,6 @@
 # quantum_codon_opt
 
-    mRNA Codon Optimization with Quantum Computers 
+    mRNA Codon Optimization on Quantum Computers 
     Copyright (C) 2021  Dillion M. Fox, Ross C. Walker
 
     This program is free software: you can redistribute it and/or modify
@@ -16,7 +16,13 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+## For details, see bioRxiv preprint
+https://www.biorxiv.org/content/10.1101/2021.02.19.431999v1
+
 ## USAGE:
+
+*See Requirements Section.* The code requires specialized execution
+environments.
 
 The main module is contained in qodon.py, and can be run by:
 
@@ -49,7 +55,7 @@ DWaveBQM(sequence: str, hybrid: bool, exact: bool)
 * IBM
 ```python
 from codon_bqm import QiskitBQM
-QiskitBQM(sequence: str, exact: bool)
+QiskitBQM(sequence: str, exact: bool, noise: bool)
 ```
 
 * Classical Genetic Algorithm
