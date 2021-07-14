@@ -1,4 +1,3 @@
-
 # QuVax
 ### mRNA design guided by folding potential
 
@@ -16,3 +15,5 @@ Run example
 conda activate quvax
 python design.py
 ```
+__________________
+# Lee -- please add anything to this that you need to do to get this working.
