@@ -1,0 +1,10 @@
+name: codeRNA
+channels:
+  - conda-forge
+dependencies:
+  - biopython>=1.78
+  - scipy>=1.6
+  - numpy>=1.2
+  - regex>=3.9
+  - pytest>=6.2
+  - dnachisel>=3.2
